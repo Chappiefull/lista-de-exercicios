@@ -3,5 +3,8 @@
 juntar_duas_listas = lambda lista1, lista2: lista1 + lista2
 
 if __name__ == "__main__":
-    numeros = [987654321,2,7654321,56,1234567, 1, 88888,3,42,999999,5,1000000000,13,101010,7,444, 9, 2, 13, 9]
-    print(juntar_duas_listas(numeros, [3, 6, 2, 5, 8]))
+    
+    natureza = ["rio", "floresta", "leão", "montanha", "oceano", "estrela", "vento", "cachoeira", "lua", "girassol"]
+    tecnologia = ["algoritmo", "API", "blockchain", "código", "software", "nuvem", "hardware", "interface", "pixel", "servidor"]
+
+    print(juntar_duas_listas(natureza, tecnologia))
